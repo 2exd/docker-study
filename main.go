@@ -25,5 +25,5 @@ func main() {
 	if err := cmd.Run(); err != nil {
 		log.Fatal(err)
 	}
-	// os.Exit(-1)
+	os.Exit(-1)
 }
